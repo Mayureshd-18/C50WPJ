@@ -5,38 +5,48 @@
     <title>Advanced search</title>
     <h2>Google</h2>
     <h2 style="color: indianred;">Advanced search</h2>
+    <link rel="stylesheet" href="adv_search_style.css">
 
 </head>
 <body>
 
 <h3>Find pages with...</h3>
 
+<div class="container">
+
 <form action="https://www.google.co.in/search" method="get">
 
     <p>
-        <label>all these words:<input class="query" type="text" name="as_q"></label>
+        <label for="a">all these words:</label>
+        <input id="a" class="query" type="text" name="as_q">
 
     </p>
 
     <p>
-        <label>this exact word or phrase:<input class="query" type="text" name="as_epq"></label>
-
-    </p>
-    <p>
-        <label>any of these words: <input class="query" type="text" name="as_oq"></label>
-
+        <label for="b">this exact word or phrase:</label>
+        <input id="b" class="query" type="text" name="as_epq">
     </p>
 
     <p>
-        <label>none of these words: <input class="query" type="text" name="as_eq"></label>
+        <label for="c">any of these words: </label>
+        <input id="c" class="query" type="text" name="as_oq">
 
     </p>
 
     <p>
-        <label>numbers ranging from: <input class="query" type="text" name="as_nlo"> to <input class="query" type="text" name="as_nhi"> </label>
+        <label for="d">none of these words: </label>
+        <input id="d" class="query" type="text" name="as_eq">
 
     </p>
-    <input class="button" type="submit" value="Search">
+
+    <p>
+        <label for="e">numbers ranging from:</label>
+        <input id="e" class="query" type="text" name="as_nlo">
+        <label for="f">to</label>
+        <input id="f" class="query" type="text" name="as_nhi">
+
+    </p>
+
 
 <!--    <p>-->
 <!--        <label>this exact word or phrase:</W> <input type="text"></label>-->
@@ -53,8 +63,10 @@
 <!--    <p>-->
 <!--        <label>all these words: <input type="text"></label>-->
 <!--    </p>-->
-
+<input class="button" type="submit" value="Search">
 
 </form>
+
+    </div>
 </body>
 </html>
