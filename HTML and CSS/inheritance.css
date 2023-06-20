@@ -1,0 +1,32 @@
+.error, .alert, .success {
+  padding: 50px;
+  font-size: 30px;
+  margin: 50px;
+  border: 5px solid black;
+}
+
+.success {
+  background-color: green;
+}
+
+.alert {
+  background-color: orange;
+}
+
+.error {
+  background-color: red;
+}
+
+.success:hover {
+  background-color: darkgreen;
+}
+
+.alert:hover {
+  background-color: darkorange;
+}
+
+.error:hover {
+  background-color: darkred;
+}
+
+/*# sourceMappingURL=inheritance.css.map */
