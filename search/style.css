@@ -14,13 +14,8 @@ h1{
 
 
 form{
-    display: -webkit-flex;
+    display: grid;
   justify-content: center;
-  align-items: center;
-}
-
-form.button{
-    display: block;
 }
 
 .query{
@@ -35,13 +30,19 @@ form.button{
 }
 
 .button  {
+      position: absolute;
+  top: 410px;
+  left: 37%;
+  transform: translateX(-50%);
+
     background-color: #303134;
     border: 1px solid #303134;
     border-radius: 4px;
     color: #e8eaed;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
+    margin-left: 120px;
+    /*margin: 0px 4px;*/
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -70,4 +71,44 @@ form.button{
     cursor: pointer;
     user-select: none;
 
+}
+
+.button3{
+    position: absolute;
+    top: -10px;
+    right: 150px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 21px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 38px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.button_lucky{
+        background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin-left: 780px;
+
+    /*margin: 0px 4px;*/
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
