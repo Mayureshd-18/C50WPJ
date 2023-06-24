@@ -1,34 +1,76 @@
 
 form{
-    display: table;
-	}
+display: table;
+}
 
-	p{
-        display: table-row;
-    }
+p{
+    display: table-row;
+}
 
-	label {
-        display: table-cell;
-	    padding: 10px;
-    }
+label {
+    display: table-cell;
+    padding: 10px;
+}
 
-	input {
-        display: table-cell;
+input {
+    display: table-cell;
 
-	    width: 350px;
-        height: 20px;
-        align-content: auto
-    }
+    width: 350px;
+    height: 20px;
+    align-content: auto
+}
 
-    #e{
-        width: 160px;
-    }
+#e{
+    width: 160px;
+}
 
-    #f{
-        width: 160px;
-    }
+#f{
+    width: 160px;
+}
 
-    label[for="f"]{
-        display:inline;
-        /*float: right;*/
-    }
+label[for="f"]{
+    display:inline;
+    /*float: right;*/
+}
+
+.button2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.button3{
+    position: absolute;
+    top: -10px;
+    right: 150px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 21px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 38px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}

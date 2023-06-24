@@ -3,23 +3,22 @@
     <head>
         <title>Search</title>
         <div class="img_search">
-            <button class = "button2" text-align="right" onclick="window.location.href = 'image_search.html';">Image Search</button>
-             <button class = "button3" text-align="right" onclick="window.location.href = 'advanced_search.html';">Advance Search</button>
+            <button class="button2" text-align="right" onclick="window.location.href = 'image_search.html';">Image Search</button>
+            <button class="button3" text-align="right" onclick="window.location.href = 'advanced_search.html';">Advance Search</button>
         </div>
 
-                    <h1>Google</h1>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-
-            <input class="query" type="text" name="q">
-
-            <p>
-
-                <input class="button" type="submit" value="Search">
-            </p>
-        </form>
-    <button class = "button_lucky"  text-align="right" onclick="window.location.href = 'https://google.com/doodles';">I am feeling lucky</button>
+        <div class="main">
+            <img class="logo" src="googlelogo_color_272x92dp.png" alt="Google logo" width="200" >
+            <form id="searchForm" action="https://www.google.com/search">
+                <input class="query" type="text" name="q">
+                <div class="btn-wrapper">
+                    <input class="button" type="submit" value="Search">
+                    <input class="button" name="btnI" type="submit" value="I am feeling lucky">
+                </div>
+            </form>
+        </div>
     </body>
 </html>

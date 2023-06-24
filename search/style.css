@@ -1,11 +1,17 @@
-h1{
-    font-size: 100px;
-    text-align: -webkit-center;
-    margin-top: 100px;
-    padding-right: 50px;
 
+
+.main {
+    margin-top: 200px;
 }
 
+
+.logo {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*a{*/
 /*    text-align: right;*/
 /*    display: grid;*/
@@ -19,37 +25,32 @@ form{
 }
 
 .query{
-    /*font-size: 20px;*/
-    margin: 20px;
-    /*padding: 5px;*/
-    border-radius: 25px;
-    border: 2px solid black;
-    padding: 20px;
+    display: block;
     width: 400px;
-    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
 }
-
 .button  {
-      position: absolute;
-  top: 410px;
-  left: 37%;
-  transform: translateX(-50%);
-
-    background-color: #303134;
-    border: 1px solid #303134;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 30px;
+    background: #dfe1e5;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 4px;
-    color: #e8eaed;
-    font-family: arial,sans-serif;
     font-size: 14px;
-    margin-left: 120px;
-    /*margin: 0px 4px;*/
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
+        display: flex;
+    justify-content: center;
 }
 
 .button2{
@@ -94,21 +95,23 @@ form{
 
 }
 
-.button_lucky{
-        background-color: #303134;
-    border: 1px solid #303134;
+.button_lucky {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 30px;
+    background: #dfe1e5;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 4px;
-    color: #e8eaed;
-    font-family: arial,sans-serif;
     font-size: 14px;
-    margin-left: 780px;
+        display: flex;
+    justify-content: center;
+}
 
-    /*margin: 0px 4px;*/
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
 }
